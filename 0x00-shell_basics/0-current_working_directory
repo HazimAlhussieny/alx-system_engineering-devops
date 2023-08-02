@@ -1,4 +1,3 @@
-#!/bin/sh
-# Absolute Path Name - Shell Scripting
+#!/bin/bash
 pwd
 

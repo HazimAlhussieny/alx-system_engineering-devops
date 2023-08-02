@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -apvX tr '\n' ','| sed 's/,$/\n/'
+ls -d . .. * | LC_COLLATE=C sort -d | tr '\n' ',' | sed 's/,$/\n/'

@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap -d -v . .. * -w 500 *
+ls -ap -d -v -m . .. * 

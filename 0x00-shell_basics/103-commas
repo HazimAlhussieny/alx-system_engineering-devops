@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -d . .. * | sort -d -k1.1,1.1 -k1.2n,1.2 | awk '{printf "%s%s", $0, (NR==NF) ? "\n" : ", "}'
+ls -a -1 -v -F | sed 's/\n/, /g' | sed 's/\/\./\./' | sed 's/\.\//\//g' | sed 's/\/$/\/\n/'

@@ -1,0 +1,3 @@
+#!/bin/sh
+# Current Directory content in long format
+ls -1

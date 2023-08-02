@@ -1,3 +1,2 @@
 #!/bin/bash
-touch /tmp/imafile.txt
-file  --mime-type  /tmp/imafile
+file --mime-type /tmp/imafile

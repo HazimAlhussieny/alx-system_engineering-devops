@@ -1,0 +1,4 @@
+#!/bin/sh
+# Absolute Path Name - Shell Scripting
+pwd
+

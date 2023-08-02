@@ -1,3 +1,2 @@
-#!/bin/sh
-# Display the content list
+#!/bin/bash
 ls
